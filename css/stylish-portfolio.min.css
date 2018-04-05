@@ -139,6 +139,11 @@ h1,h2,h3,h4,h5,h6{
         color:#fff;
         padding:15px
     }
+
+    .caption-content{
+        background-color: rgba(50, 49, 49, 0.6);
+        padding: 50px;
+    }
     
     .sidebar-nav 
     li a:hover{
@@ -262,7 +267,7 @@ h1,h2,h3,h4,h5,h6{
         clip-path:inset(-1px)
     }
     
-    .portfolio-item:hover img{
+    .portfolio-item:hover img {
         -webkit-clip-path:inset(2rem);
         clip-path:inset(2rem)
     }
@@ -272,13 +277,15 @@ h1,h2,h3,h4,h5,h6{
         -webkit-clip-path:inset(2rem);
         clip-path:inset(2rem)}
     }
-
-    .ing-fluid {
-        max-width: 100% !important;
-        max-height: 100% !important;
-        background-position:center center !important;
-        background-size:cover !important;
-      }
+/* 
+    .layer {
+        background-color: rgba(52, 52, 52, 0.502);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    } */
     
     footer.footer{
         padding-top:5rem;
